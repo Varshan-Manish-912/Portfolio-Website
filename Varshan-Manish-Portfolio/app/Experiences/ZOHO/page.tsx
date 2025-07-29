@@ -2,8 +2,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
-import Link from "next/link";
-import "../../../components/styles/Floater.css"
+import "../../../components/styles/Floater.css";
 
 const Page = () => {
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -61,7 +60,6 @@ const Page = () => {
             url: "https://drive.google.com/drive/folders/19e3FhPVrgH2ybBsW0b7AjxxZ77KHz4Y4?usp=sharing",
         },
     ];
-
     return (
         <div className="relative flex flex-col min-h-[600px] md:min-h-screen w-full overflow-hidden">
             {showVideo && (
@@ -135,26 +133,28 @@ const Page = () => {
                                 delay: index * 0.2,
                             }}
                         >
-                            <Tilt
-                                glareEnable
-                                glareMaxOpacity={0.2}
-                                glareColor="#fff"
-                                glarePosition="all"
-                                tiltMaxAngleX={10}
-                                tiltMaxAngleY={10}
-                                scale={1.05}
-                                transitionSpeed={400}
-                                className="bg-[#1a1a1a] p-5 rounded-xl shadow-2xl w-[250px] min-h-[100px] flex flex-col justify-center items-center text-center hover:scale-105 transition-transform duration-300"
+                            <a
+                                href={doc.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="no-underline"
                             >
-                                <Link
-                                    href={doc.url}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-500"
+                                <Tilt
+                                    glareEnable
+                                    glareMaxOpacity={0.2}
+                                    glareColor="#fff"
+                                    glarePosition="all"
+                                    tiltMaxAngleX={10}
+                                    tiltMaxAngleY={10}
+                                    scale={1.05}
+                                    transitionSpeed={400}
+                                    className="bg-[#1a1a1a] p-5 rounded-xl shadow-2xl w-[250px] min-h-[100px] flex flex-col justify-center items-center text-center hover:scale-105 transition-transform duration-300"
                                 >
-                                    {doc.name}
-                                </Link>
-                            </Tilt>
+                                    <span className="text-lg font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-500">
+                                        {doc.name}
+                                    </span>
+                                </Tilt>
+                            </a>
                         </motion.div>
                     ))}
                 </div>
