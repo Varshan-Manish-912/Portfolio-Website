@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="text-[15px]">
                 ✉️{" "}
                 <a
-                  href="varshan.manish.work@gmail.com"
+                  href="mailto:varshan.manish.work@gmail.com"
                   className="hover:underline"
                 >
                   varshan.manish.work@gmail.com
