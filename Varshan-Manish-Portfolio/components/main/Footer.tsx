@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-6 text-[15px] text-center">
-          &copy; Created By Varshan Manish 2025. All Rights Reserved.
+          &copy; Created By Varshan Manish 2026. All Rights Reserved.
         </div>
       </div>
     </div>

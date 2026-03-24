@@ -69,10 +69,11 @@ const Navbar = () => {
           {/* Desktop Nav Links */}
           <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20 ml-auto">
             <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-              {navLink("Experiences", "/#experience", 0)}
+              {navLink("Experience", "/#experience", 0)}
+              {navLink("Research", "/#research", 4)}
+              {navLink("Projects", "/#projects", 3)}
               {navLink("Skills", "/#skills", 1)}
               {navLink("About Me", "/#about-me", 2)}
-              {navLink("Projects", "/#projects", 3)}
             </div>
           </div>
 
@@ -109,10 +110,11 @@ const Navbar = () => {
         {menuOpen && (
             <div className="md:hidden w-full bg-[#030014e6] border-t border-[#7042f861] mt-2 rounded-b-lg text-gray-200">
               <div className="flex flex-col items-center justify-center py-4 gap-4">
-                {navLink("Experiences", "#experience", 0)}
-                {navLink("Skills", "#skills", 1)}
-                {navLink("About Me", "#about-me", 2)}
-                {navLink("Projects", "#projects", 3)}
+                {navLink("Experience", "/#experience", 0)}
+                {navLink("Research", "/#research", 4)}
+                {navLink("Projects", "/#projects", 3)}
+                {navLink("Skills", "/#skills", 1)}
+                {navLink("About Me", "/#about-me", 2)}
               </div>
             </div>
         )}

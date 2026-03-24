@@ -5,6 +5,7 @@ import Hero from "@/components/main/Hero";
 import AboutMe from "@/components/main/AboutMe";
 import Skills from "@/components/main/Skills";
 import Experience from "@/components/main/Experience"
+import Research from "@/components/main/Research";
 function scrollToHash(retries = 10) {
   if (typeof window === "undefined" || !window.location.hash) return;
   const id = window.location.hash.substring(1);
@@ -24,9 +25,10 @@ export default function Home() {
       <div className="flex flex-col gap-0">
         <Hero />
         <Experience />
+        <Research />
+        <Projects />
         <Skills />
         <AboutMe />
-        <Projects />
       </div>
     </main>
   );

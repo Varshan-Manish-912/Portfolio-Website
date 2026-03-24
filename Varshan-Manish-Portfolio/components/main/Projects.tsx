@@ -42,6 +42,12 @@ const Projects = () => {
       desc: "An OCR for Tamil handwritten characters using CNN and 2005 HP Tamil Character Dataset.",
       link: "/TamilOCRProject/",
     },
+    {
+      src: "/projects/GoldTokenizer/GoldTokenizer.png",
+      title: "Gold Tokenizer",
+      desc: "A decentralized finance platform for form based gold tokenization using ERC-1155 token standard.",
+      link: "/GoldTokenizerProject/",
+    },
   ];
 
   return (
@@ -49,8 +55,8 @@ const Projects = () => {
       className="flex flex-col items-center justify-center py-16 px-4 md:px-8 z-[20]"
       id="projects"
     >
-      <h1 className="text-3xl md:text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-8">
-        My Projects
+      <h1 className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-8">
+        Projects
       </h1>
 
       <Swiper

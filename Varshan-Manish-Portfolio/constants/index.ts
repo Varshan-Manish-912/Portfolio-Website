@@ -150,7 +150,50 @@ export const Blockchain_Skill = [
     label: "Metamask",
   },
 ];
-
+export const MLDL = [
+  {
+    skill_name: "NumPy",
+    Image: "/skills/numpy.png",
+    width: 70,
+    height: 70,
+    label: "NumPy",
+  },
+  {
+    skill_name: "Pandas",
+    Image: "/skills/pandas.png",
+    width: 70,
+    height: 70,
+    label: "Pandas",
+  },
+  {
+    skill_name: "MatPlotLib",
+    Image: "/skills/matplotlib.png",
+    width: 70,
+    height: 70,
+    label: "MatPlotLib",
+  },
+  {
+    skill_name: "SciKitLearn",
+    Image: "/skills/scikitlearn.png",
+    width: 70,
+    height: 70,
+    label: "Scikit-learn",
+  },
+  {
+    skill_name: "PyTorch",
+    Image: "/skills/pytorch.png",
+    width: 70,
+    height: 70,
+    label: "PyTorch",
+  },
+  {
+    skill_name: "opencv",
+    Image: "/skills/opencv.png",
+    width: 70,
+    height: 70,
+    label: "OpenCV",
+  },
+]
 export const Database = [
   {
     skill_name: "MySQL",
@@ -181,7 +224,36 @@ export const Database = [
     label: "MongoDB",
   },
 ];
-
+export const Developer_Tools = [
+  {
+    skill_name: "Git",
+    Image: "/skills/git.png",
+    width: 70,
+    height: 70,
+    label: "Git/GitHub",
+  },
+  {
+    skill_name: "PostMan",
+    Image: "/skills/postman.png",
+    width: 70,
+    height: 70,
+    label: "Postman",
+  },
+  {
+    skill_name: "Colab",
+    Image: "/skills/colab.png",
+    width: 70,
+    height: 70,
+    label: "Google Colab",
+  },
+  {
+    skill_name: "Docker",
+    Image: "/skills/docker.png",
+    width: 70,
+    height: 70,
+    label: "Docker",
+  },
+];
 export const Cloud_Computing = [
   {
     skill_name: "AWS",
@@ -203,22 +275,6 @@ export const Cloud_Computing = [
     width: 70,
     height: 70,
     label: "Firebase",
-  },
-];
-export const Developer_Tools = [
-  {
-    skill_name: "Git",
-    Image: "/skills/git.png",
-    width: 70,
-    height: 70,
-    label: "Git/GitHub",
-  },
-  {
-    skill_name: "Docker",
-    Image: "/skills/docker.png",
-    width: 70,
-    height: 70,
-    label: "Docker",
   },
 ];
 export const Mobile_Development = [

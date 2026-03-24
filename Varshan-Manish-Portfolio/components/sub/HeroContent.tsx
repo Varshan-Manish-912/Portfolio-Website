@@ -7,7 +7,7 @@ import Lottie from "react-lottie";
 import Link from "next/link";
 const lottieAnimations = [
   {
-    animationData: require("/public/Animation-1747129850124.json"),
+    animationData: require("/public/Animation-1748.json"),
     label: "Full Stack Web Development",
   },
   {
@@ -21,6 +21,10 @@ const lottieAnimations = [
   {
     animationData: require("/public/Animation-1747031522285.json"),
     label: "Software Engineering",
+  },
+  {
+    animationData: require("/public/Animation-1747.json"),
+    label: "Machine Learning and Deep Learning",
   },
 ];
 const HeroContent = () => {
@@ -63,6 +67,8 @@ const HeroContent = () => {
                   "Mobile Application Development",
                   "Blockchain Development",
                   "Software Engineering",
+                  "Machine Learning",
+                  "Deep Learning"
                 ]}
                 loop={true}
                 cursor={false}
@@ -77,10 +83,11 @@ const HeroContent = () => {
         <motion.div
           variants={slideInFromLeft(1)}
           className="flex md:block justify-center md:justify-start mt-6"
+          whileHover={{ y: -2 }}
         >
           <Link
             href="/MoreAboutMe"
-            className="py-3 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] w-full md:w-auto text-lg"
+            className="py-3 px-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-center text-white font-bold cursor-pointer rounded-lg max-w-[200px] w-full md:w-auto text-lg"
           >
             Learn More
           </Link>

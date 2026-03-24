@@ -2,6 +2,7 @@
 import {
   Blockchain_Skill,
   Web_Development,
+  MLDL,
   Database,
   Cloud_Computing,
   Programming_languages,
@@ -34,14 +35,12 @@ const Skills = () => {
           {[
             { title: "Programming Languages", data: Programming_languages },
             { title: "Web Development", data: Web_Development },
+            {title: "Machine Learning and Deep Learning", data: MLDL},
             { title: "Blockchain Development", data: Blockchain_Skill },
             { title: "Database Management", data: Database },
-            { title: "Cloud Computing Technologies", data: Cloud_Computing },
             { title: "Developer Tools", data: Developer_Tools },
-            {
-              title: "Mobile Application Development",
-              data: Mobile_Development,
-            },
+            { title: "Cloud Computing Technologies", data: Cloud_Computing },
+            { title: "Mobile Application Development", data: Mobile_Development,},
           ].map((category, catIdx) => (
             <div key={catIdx}>
               <h3 className="text-xl font-bold text-center text-white mb-2">

@@ -77,7 +77,7 @@ const Covid19ManagerProjectContent = () => {
           href="https://drive.google.com/file/d/1VWrzdsY2CRevi-BG8MANevAIIVLsVY38/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full text-center px-6 py-3 bg-gradient-to-r from-green-400 to-emerald-600 rounded-lg hover:opacity-90 transition font-medium"
+          className="w-full text-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg hover:opacity-90 transition font-medium"
         >
           Documentation
         </a>

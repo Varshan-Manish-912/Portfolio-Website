@@ -18,7 +18,7 @@ const AboutMe = () => {
         className="text-[40px] font-bold text-center text-gray-200 mb-10 z-[25]"
       >
         {" "}
-        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-400">
+        <span className="text-[40px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-400">
           About Me
         </span>
       </motion.h1>
@@ -72,13 +72,13 @@ const AboutMe = () => {
             href="https://drive.google.com/file/d/1Oad49hDAmuWwTv4entiita2SvYAmqlQ5/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-6 bg-gradient-to-r from-purple-500 to-yellow-400 text-white font-semibold px-6 py-3 rounded-xl hover:scale-105 transition-transform duration-300 z-[30]"
+            className="inline-block mt-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold px-6 py-3 rounded-xl hover:scale-105 transition-transform duration-300 z-[30]"
           >
             Download Resume
           </Link>
           <Link
             href="/MoreAboutMe"
-            className="inline-block mt-6 bg-gradient-to-r from-purple-500 to-yellow-400 text-white font-semibold px-6 py-3 rounded-xl hover:scale-105 transition-transform duration-300 z-[30]"
+            className="inline-block mt-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold px-6 py-3 rounded-xl hover:scale-105 transition-transform duration-300 z-[30]"
           >
             Learn more about me
           </Link>

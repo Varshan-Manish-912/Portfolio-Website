@@ -69,6 +69,8 @@ const AssetTokenizerProjectContent = () => {
           Utilized MongoDB for backend data storage, tracking token ownership
           and asset availability in real time.
         </li>
+        <li>This project has been patented and has been published by the Indian Patent Office.
+        </li>
       </ul>
       <div className="flex flex-col sm:flex-row justify-center items-center gap-6 w-full max-w-md mb-10">
         <a
@@ -83,9 +85,17 @@ const AssetTokenizerProjectContent = () => {
           href="https://drive.google.com/file/d/1TDbGVC2I1jmyKkiD72swBOkKGAAEJDBF/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
-          className="w-full text-center px-6 py-3 bg-gradient-to-r from-green-400 to-emerald-600 rounded-lg hover:opacity-90 transition font-medium"
+          className="w-full text-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg hover:opacity-90 transition font-medium"
         >
           Documentation
+        </a>
+        <a
+            href="https://ieeexplore.ieee.org/document/11376418"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full text-center px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg hover:opacity-90 transition font-medium"
+        >
+          Publication
         </a>
       </div>
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-8">
