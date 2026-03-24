@@ -15,7 +15,7 @@ const Projects = () => {
     {
       src: "/projects/ExpenseElixir/expenseElixir.png",
       title: "Expense Elixir",
-      desc: "A modern expense tracking application with rich visualizations and intuitive UI for budgeting.",
+      desc: "A modern expense tracking application with rich visualizations and intuitive UI for budgeting. Developed using flutter framework.",
       link: "/ExpenseElixirProject/",
     },
     {
@@ -39,7 +39,7 @@ const Projects = () => {
     {
       src: "/projects/TamilOCR/TamilOCR.png",
       title: "Tamil Handwritten OCR",
-      desc: "An OCR for Tamil handwritten characters using CNN and 2005 HP Tamil Character Dataset.",
+      desc: "An optical character recognizer for Tamil handwritten characters using CNN and 2005 HP Tamil Character Dataset.",
       link: "/TamilOCRProject/",
     },
     {
@@ -47,6 +47,18 @@ const Projects = () => {
       title: "Gold Tokenizer",
       desc: "A decentralized finance platform for form based gold tokenization using ERC-1155 token standard.",
       link: "/GoldTokenizerProject/",
+    },
+    {
+      src: "/projects/OorulaSoru/OorulaSoru.png",
+      title: "Oorula Soru",
+      desc: "A command line interface based food delivery application developed using Python and MySQL database.",
+      link: "/OorulaSoruProject/",
+    },
+    {
+      src: "/projects/SkinCare/SkinCare.png",
+      title: "Skin Care Recommender",
+      desc: "A command line interface based food delivery application developed using Python and MySQL database.",
+      link: "/SkinCareProject/",
     },
   ];
 

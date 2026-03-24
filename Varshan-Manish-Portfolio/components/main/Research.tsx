@@ -30,7 +30,7 @@ const researchData: ResearchItem[] = [
             "Patent Published in the Indian Patent Office. Application Number: 202641025050",
         status: "Patent",
         link: "https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus",
-        secondaryLink: "/ComingSoon"
+        secondaryLink: "/SkinCareProject"
     },
     {
         date: "March 13, 2026",

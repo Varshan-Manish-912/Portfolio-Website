@@ -72,7 +72,7 @@ const Card = ({
           <>
             <MiniCard
               heading="Degree"
-              details="M.Tech Integrated CSE at VIT Vellore | CGPA: 9.04"
+              details="M.Tech Integrated CSE at VIT Vellore | CGPA: 9.06"
             />
             <MiniCard
               heading="Class XII"
