@@ -15,7 +15,7 @@ const Projects = () => {
     {
       src: "/projects/ExpenseElixir/expenseElixir.png",
       title: "Expense Elixir",
-      desc: "A modern expense tracking application with rich visualizations and intuitive UI for budgeting. Developed using flutter framework.",
+      desc: "A modern expense tracking application with rich visualizations and intuitive UI for budgeting. Developed using flutter.",
       link: "/ExpenseElixirProject/",
     },
     {
