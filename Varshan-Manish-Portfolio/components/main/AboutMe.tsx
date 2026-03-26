@@ -69,7 +69,7 @@ const AboutMe = () => {
             breath.
           </p>
           <Link
-            href="https://drive.google.com/file/d/1Oad49hDAmuWwTv4entiita2SvYAmqlQ5/view?usp=sharing"
+            href="https://drive.google.com/file/d/183YTyBZ7p7FngSjI-hbG3KgD36tdPwaa/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-6 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold px-6 py-3 rounded-xl hover:scale-105 transition-transform duration-300 z-[30]"
