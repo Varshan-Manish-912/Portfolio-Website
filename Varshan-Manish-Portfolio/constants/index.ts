@@ -41,6 +41,13 @@ export const Programming_languages = [
     height: 80,
     label: "Solidity",
   },
+  {
+    skill_name: "ASM x86",
+    Image: "/skills/x86.png",
+    width: 80,
+    height: 80,
+    label: "ASM x86",
+  },
 ];
 
 export const Socials = [
@@ -103,6 +110,13 @@ export const Web_Development = [
     width: 80,
     height: 80,
     label: "NodeJS",
+  },
+  {
+    skill_name: "Next",
+    Image: "/skills/nextjs.png",
+    width: 80,
+    height: 80,
+    label: "NextJS",
   },
 ];
 
